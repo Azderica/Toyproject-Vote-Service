@@ -97,7 +97,7 @@ export default {
         if (val === "") return true;
         return axios
           .get(
-            'https://vue-journal.firebaseio.com/users.json?orderBy="email"&equalTo="' +
+            'https://toyproject-vote-service-default-rtdb.firebaseio.com/users.json?orderBy="email"&equalTo="' +
               val +
               '"'
           )
