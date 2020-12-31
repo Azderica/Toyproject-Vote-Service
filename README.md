@@ -23,3 +23,4 @@ Just Vote Site. This project is vue starter project.
 ## Source.
 
 - https://github.com/Atanda1/vue-survey-sample
+- https://www.smashingmagazine.com/2020/05/vue-survey-app-firebase-authentication-database/
