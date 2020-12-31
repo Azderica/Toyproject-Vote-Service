@@ -29,7 +29,7 @@ export default new Vuex.Store({
     signup({ commit, dispatch }, authData) {
       axios
         .post(
-          "https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=[API KEY]",
+          "https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyAd7pNrPoYvyALyfarJo54mxz71JZvFjOo",
           {
             email: authData.email,
             password: authData.password,
@@ -70,7 +70,7 @@ export default new Vuex.Store({
     login({ commit }, authData) {
       axios
         .post(
-          "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=[API KEY]",
+          "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyAd7pNrPoYvyALyfarJo54mxz71JZvFjOo",
           {
             email: authData.email,
             password: authData.password,
